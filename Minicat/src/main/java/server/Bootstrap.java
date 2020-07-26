@@ -40,7 +40,6 @@ public class Bootstrap {
      */
     public void start() throws Exception {
         //加载
-//        loadServlet();
         loadServer();
         //定义线程池
         int corePoolSize = 10;
